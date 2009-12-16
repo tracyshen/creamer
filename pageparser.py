@@ -195,7 +195,7 @@ class SimpleParser(SGMLParser):
 		nextDensity=0.0
 	    # Load the data we described above.
 	    calc_out=self.ann.run([len(rtag.data),ownDensity,preDensity,nextDensity])
-	    if calc_out[0]>-0.7:
+	    if calc_out[0]>0:
 		candidates[pos]=rtag
 		#~ print rtag.tag,' ',calc_out[0],' ',pos,' len:',len(rtag.data),' ',ownDensity,' ',preDensity,' ',nextDensity
 	#~ print "==============================="
