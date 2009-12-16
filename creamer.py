@@ -2,7 +2,6 @@
 from urllib import urlopen
 import pageparser,datamgr,sys
 
-
 def get_cream(url):
 	rawContent=datamgr.to_utf8(urlopen(url).read())
 	pparser=pageparser.CreamParser()	
