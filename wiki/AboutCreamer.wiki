@@ -1,10 +1,9 @@
-
 设计思路：
 1，分析网页的DOM，记录每一个标签名字、属性和文字
 
 2，计算每个标签的文字密度，据此判断该标签是否含有正文
    如
-<a href="/news/url?sa=t&ct2=ccn%2F0_0_s_7_0_t&usg=AFQjCNExeV60yuVWCO6xTvDmNozeXX7sSw&cid=1342653453&ei=nXgoS-2vOYTe6wPL87_RAw&rt=HOMEPAGE&vm=STANDARD&url=http%3A%2F%2Fworld.huanqiu.com%2Froll%2F2009-12%2F662347.html" target="_blank">哥本哈根会议陷入僵局 发达国家厚颜玩手腕</a>
+｀<a href="/news/url?sa=t&ct2=ccn%2F0_0_s_7_0_t&usg=AFQjCNExeV60yuVWCO6xTvDmNozeXX7sSw&cid=1342653453&ei=nXgoS-2vOYTe6wPL87_RAw&rt=HOMEPAGE&vm=STANDARD&url=http%3A%2F%2Fworld.huanqiu.com%2Froll%2F2009-12%2F662347.html" target="_blank">哥本哈根会议陷入僵局 发达国家厚颜玩手腕</a>｀
 因文字与HTML代码比例过低，而不能成为正文标签。
    又如
 <p>　　造成这样丑闻的原因主要是由于保障性住房的资源过于紧张，中低收入者庞大的需求量与紧张的房源之间不成比例，加之保障性住房的价格与市场上普通的商品房之间价格也有着较大的差异，这就使一些有着“投机思想”和“特权主义”的人费尽心思去徇私舞弊。
